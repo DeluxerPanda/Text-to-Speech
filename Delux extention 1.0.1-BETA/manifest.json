@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Delux Extention",
+
+    "description": "Den deluxigaste tilläges som fins",
+    "version": "1.0.2",
+
+    "author": "DeluxerPanda",
+
+    "icons":{"128": "icon_128.png"},
+
+    "action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+
+    "background":{
+        "service_worker":"Background.js"
+    },
+    
+    "permissions":["contextMenus","tabs", "notifications", "storage"],
+
+    "content_scripts": [{ "matches": ["<all_urls>"], "js": ["content.js"] }]
+}
