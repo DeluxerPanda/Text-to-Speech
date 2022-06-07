@@ -1,0 +1,139 @@
+    /* Modal Structure */
+
+    html,
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 384px;
+    }
+
+    h1 {
+      font-family: "Menlo", monospace;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      color: #2f5876;
+    }
+
+    img {
+      width: 30px;
+    }
+
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid #dadada;
+    }
+
+    .modal-content {
+      padding: 0 22px;
+    }
+
+    .modal-icons {
+      border-top: 0.5px solid #dadada;
+      height: 50px;
+      width: 100%;
+    }
+
+    .logo {
+      padding: 16px;
+    }
+
+    .logo-icon {
+      vertical-align: text-bottom;
+      margin-right: 12px;
+    }
+
+    .version {
+      color: #444;
+      font-size: 18px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 22px;
+    }
+
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 120px;
+    }
+
+    .flex:hover {
+      opacity: 0.4;
+    }
+
+    .flex .fab {
+      padding: 7px;
+        font-size: 24px;
+        width: 31px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+    .flex .fa {
+      padding: 7px;
+        font-size: 30px;
+        width: 31px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;}
+    
+        .fa-youtube {
+        background: #bb0000;
+        color: white;}
+    
+        .fa-instagram {
+        background: rgb(255,189,79);
+        background: linear-gradient(0deg, rgba(255,189,79,1) 0%, rgba(174,52,163,1) 61%, rgba(92,98,184,1) 100%);
+        color: white;}
+    
+        .fa-tiktok {
+        background: black;
+        color: white;}
+    
+        .fa-twitch {
+        background: purple;
+        color: white;}
+  #text-to-speech{
+    font-size:14pt;
+    max-height:70vh;
+  max-width:60vw;
+  }
+  button{
+    font-size:14pt;
+  }
+  
+         /*Text*/
+            .center {text-align: center;}
+
+            .centerB {
+              margin: auto;
+              max-height:70vh;
+              max-width:60vw;
+              border: 3px solid transparent;
+              border-image: 
+              linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+              border-image-slice: 1;
+              border-radius: 10px;  /* will have no effect */
+            }
+
+            .button{
+              
+              width: 100%;
+              border: none;
+              cursor: pointer;
+            } 
+            
+       
+              
