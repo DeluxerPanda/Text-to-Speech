@@ -2,7 +2,7 @@ console.log("laddar background.js");
     chrome.runtime.onInstalled.addListener(() => {
       var contextMenuItem = {
           "id": "Delux", 
-          "title":"Text till tal \"%s\"",
+          "title":"Text to speech \"%s\"",
           "contexts": ["selection"]
       }
   
@@ -18,8 +18,8 @@ console.log("laddar background.js");
           {
             type: "basic",
             iconUrl: "icon.png",
-            title: "Text till tal",
-            message: "Hej där! Du kan nu få texten uppläst. klicka på Delux Extention logan uppe i hörnet"
+            title: "Text to speech",
+            message: "Hello there! You can now have the text read aloud. click on the Delux Extention logo in the top corner"
           });
         chrome.notifications.clear(
           "Delux-notification"
@@ -32,7 +32,7 @@ console.log("laddar background.js");
               type: "basic",
               iconUrl: "icon.png",
               title: "Text till tal",
-              message: "något gick fel",
+              message: "something went wrong",
             });
             chrome.notifications.clear(
               "Delux-notification"
